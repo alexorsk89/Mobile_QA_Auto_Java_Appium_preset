@@ -14,35 +14,14 @@ public class FeedScreenObject extends MainPageObject {
             CATEGORY_FEED_BUTTON_POST = "Posts",
             CATEGORY_FEED_BUTTON_VIDEO = "Video",
             CATEGORY_FEED_BUTTON_CHANNEL = "Channels",
-            FIND_ICON = "com.arround.io.debug:id/icon_search",
 
-//    ** ROUNDS **
+//    ** Name category **
+    //              **  id-selectors in variables
 
-            TOP_FOLLOW_SWITCH = "com.arround.io.debug:id/container_switch",
-            ROUND_USER_AVATAR = "com.arround.io.debug:id/avatar",
-            ROUND_USER_SUBSCRIBE_ICON = "com.arround.io.debug:id/subscribeBackground",
-            ROUND_USER_NAME = "com.arround.io.debug:id/userName",
-            ROUND_SOUND_ICON = "com.arround.io.debug:id/musicPlate",
-            ROUND_SOUND_NAME = "com.arround.io.debug:id/tvTrackInfoRound",
-
-            ROUND_LIKE_IMAGE = "com.arround.io.debug:id/like",
-            ROUND_LIKE_COUNTER = "com.arround.io.debug:id/likes_count",
-            ROUND_COMMENT = "com.arround.io.debug:id/ivRoundComments",
-            ROUND_COMMENT_COUNTER = "com.arround.io.debug:id/tvRoundCommentsCount",
-            ROUND_SHARE = "com.arround.io.debug:id/ivFeedShareIcon",
-            ROUND_SOUND_ON_OFF = "com.arround.io.debug:id/audio",
+            TOP_FOLLOW_SWITCH = ,
 
 //    ** Round comment screen **
-            ROUND_COMMENT_LIKE_ICON = "com.arround.io.debug:id/ivRoundLike",
-            ROUND_COMMENT_LIKE_COUNTER = "com.arround.io.debug:id/tvRoundLikesCount",
-            ROUND_COMMENT_SCREEN_COUNTER = "com.arround.io.debug:id/tvRoundCommentsCount",
-            ROUND_COMMENT_DESCRIPTION = "com.arround.io.debug:id/tvRoundMessage",
-            ROUND_COMMENT_TEXT_FIELD = "com.arround.io.debug:id/etRoundCommentText",
-            ROUND_COMMENT_SEND_TEXT = "com.arround.io.debug:id/ivSendRoundComment",
-            ROUND_COMMENT_TEXT = "com.arround.io.debug:id/tvRoundComment",
-            ROUND_COMMENT_REPLY = "com.arround.io.debug:id/tvReplyToComment",
-            VALUE_COMMENT = "#1_тестовый_комментарий_Appium",
-            VALUE_REPLY_COMMENT = "#2_тестовый_ответ_на_комментарий_Appium";
+            ROUND_COMMENT_LIKE_ICON = "com.arround.io.debug:id/ivRoundLike";
 
 //    ** Round share screen **
 //            ROUND_SHARE_CLOSE_SCREEN = "",

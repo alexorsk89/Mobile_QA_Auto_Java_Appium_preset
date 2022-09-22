@@ -30,9 +30,9 @@ public class CoreTestCase extends TestCase
         capabilities.setCapability("deviceName", "AndroidTestDevice");
         capabilities.setCapability("platformVersion", "10");
         capabilities.setCapability("automationName", "Appium");
-        capabilities.setCapability("appPackage", "com.arround.io.debug");
-        capabilities.setCapability("appActivity", "com.arround.io.new_auth.EnterPhoneActivity");
-        capabilities.setCapability("app", "//Users/alexqasinelnikov/Desktop/ZHARA_Android_AutoTest/ZHARA_Android_AutoTest/apks/ZHARA_5.4.0.apk");
+   //     capabilities.setCapability("appPackage", "com.arround.io.debug");
+   //     capabilities.setCapability("appActivity", "com.arround.io.new_auth.EnterPhoneActivity");
+        capabilities.setCapability("app", "__"); // this way for folder with .apk
 
         driver = new AndroidDriver(new URL(AppiumURL), capabilities);
         this.rotateScreenPortrait();

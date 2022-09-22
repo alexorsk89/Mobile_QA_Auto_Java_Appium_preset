@@ -6,12 +6,12 @@ import org.openqa.selenium.By;
 public class StartScreenObject extends MainPageObject
 {
     private static final String
-        INPUT_PHONE_NUMBER = "com.arround.io.debug:id/phoneInput",
-        INPUT_PHONE_NUMBER_STEP_2 = "com.arround.io.debug:id/phoneInputPhone",
-        CONTINUE_BUTTON = "com.arround.io.debug:id/continueBtn",
-        CODE_VIEW = "com.arround.io.debug:id/codeView",
-        ROUND_LIKE_IMAGE = "com.arround.io.debug:id/like",
-        NUMBER_PHONE = "9999999977";
+        INPUT_PHONE_NUMBER = "",
+        INPUT_PHONE_NUMBER_STEP_2 = "",
+        CONTINUE_BUTTON = "",
+        CODE_VIEW = "",
+        ROUND_LIKE_IMAGE = "";
+        // NUMBER_PHONE = "";
 
 
     public StartScreenObject(AppiumDriver driver) {

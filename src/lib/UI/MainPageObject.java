@@ -69,18 +69,6 @@ public class MainPageObject {
         return searchLineText;
     }
 
-    public void checkSearchInNotEmpty(By byList, By byElement, String error_message, long timeInSeconds) {
-        int listWebElements = waitForElementPresent(byList, error_message, timeInSeconds).findElements(byElement).size();
-//        System.out.println(listWebElements);
-        if (listWebElements < 1) {
-            Assert.assertEquals(
-                    "size < 1",
-                    "Костыль 1",
-                    "Костыль 2"
-            );
-        }
-
-    }
 
     public void swipeUp(int timeOfSwipe) {
         TouchAction action = new TouchAction(driver);

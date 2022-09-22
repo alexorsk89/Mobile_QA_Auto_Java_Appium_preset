@@ -25,7 +25,7 @@ public class iOSTestCase extends TestCase
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("deviceName", "iPhone 8");
         capabilities.setCapability("platformVersion", "15.0");
-        capabilities.setCapability("app", "/Users/alexqasinelnikov/Desktop/JavaAppiumAutomation/JavaAppiumAutomation/apks/Wikipedia.app");
+        capabilities.setCapability("app", "__"); // this way for folder with .app
 
         driver = new IOSDriver(new URL(AppiumURL), capabilities);
         this.rotateScreenPortrait();
