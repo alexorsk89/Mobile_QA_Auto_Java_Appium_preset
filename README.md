@@ -1,0 +1,1 @@
+# Mobile_QA_Auto_Java_Appium_preset
