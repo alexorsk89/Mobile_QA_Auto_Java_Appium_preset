@@ -28,11 +28,11 @@ public class CoreTestCase extends TestCase
 
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "AndroidTestDevice");
-        capabilities.setCapability("platformVersion", "10");
+        capabilities.setCapability("platformVersion", "9");
         capabilities.setCapability("automationName", "Appium");
-   //     capabilities.setCapability("appPackage", "com.arround.io.debug");
-   //     capabilities.setCapability("appActivity", "com.arround.io.new_auth.EnterPhoneActivity");
-        capabilities.setCapability("app", "__"); // this way for folder with .apk
+        capabilities.setCapability("appPackage", "ru.astracom.omega.pro");
+        capabilities.setCapability("appActivity", "LaunchActivity");
+        capabilities.setCapability("app", "C:\\Users\\sinelnikov\\Desktop\\ASTRACOM_Project\\1_set\\Mobile_QA_Auto_DefaultGit\\apk\\Omega_opb_version_1.1.10.apk"); // this way for folder with .apk
 
         driver = new AndroidDriver(new URL(AppiumURL), capabilities);
         this.rotateScreenPortrait();
